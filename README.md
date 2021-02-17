@@ -2,6 +2,8 @@
 
 A Todo-List based on personal preference and research.
 
+Site can be found here: https://hyfydistro.github.io/Todo-List.github.io/
+
 ## Notes
 ### Creating the 'Clear Tasks' function
 
