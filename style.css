@@ -64,7 +64,7 @@ html p,
 html span,
 html a,
 html #due-date__input {
-  font-family: "myanmar text";
+  font-family: "myanmar text", "Raleway", "Arial";
   font-weight: normal;
   font-size: 20px;
   line-height: 1.5;
@@ -74,7 +74,7 @@ html ul li,
 html .module__label,
 html .color-change__selection--none::before,
 html textarea#memo__input {
-  font-family: "myanmar text";
+  font-family: "myanmar text", "Raleway", "Arial";
 }
 html header h1 {
   font-size: calc(1rem * 1.2 * 1.2 * 1.2);
