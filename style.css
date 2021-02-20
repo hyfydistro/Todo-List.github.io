@@ -188,6 +188,10 @@ html main a.module-update__btn span {
   }
 }
 @media screen and (max-width: 600px) {
+  .app-container {
+    padding-top: calc(15px * 1.5 * 1.5);
+  }
+
   h1.title {
     display: inherit;
   }
