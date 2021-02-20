@@ -159,10 +159,6 @@ html main a.module-update__btn span {
     top: -6px;
   }
 }
-body {
-  background-color: bisque;
-}
-
 .app-container {
   background: #FFFFFF;
   max-width: 768px;
@@ -189,8 +185,6 @@ body {
     display: block;
     text-align: center;
     margin: 0 auto;
-    padding-top: calc(20px * 1.5 * 1.5);
-    padding-bottom: calc(20px * 1.5 * 1.5);
   }
 }
 @media screen and (max-width: 600px) {
@@ -263,8 +257,19 @@ nav .settings__dropdown {
 
 .list-component {
   margin-bottom: calc(20px / 1.5);
+  animation: slide-in 0.4s ease;
 }
 
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .list-component__first-block {
   display: flex;
   align-items: center;
